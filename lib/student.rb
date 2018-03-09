@@ -101,6 +101,6 @@ class Student
     SQL
 
     student = DB[:conn].execute(sql).first
-    student.new_from_db
+    self.new_from_db(student)
   end
 end
