@@ -86,10 +86,10 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE id < ?
+      WHERE id <= ?
     SQL
 
     DB[:conn].execute(sql, x)
-      
+
   end
 end
