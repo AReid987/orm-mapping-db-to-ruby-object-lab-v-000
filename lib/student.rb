@@ -101,6 +101,6 @@ class Student
     SQL
 
     rows = DB[:conn].execute(sql)
-    rows[0][0]
+    rows[0]
   end
 end
