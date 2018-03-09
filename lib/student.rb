@@ -100,7 +100,6 @@ class Student
       WHERE grade = 10
     SQL
 
-    rows = DB[:conn].execute(sql)
-    rows[0]
+    DB[:conn].execute(sql)
   end
 end
