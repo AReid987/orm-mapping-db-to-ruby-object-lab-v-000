@@ -1,4 +1,4 @@
-require 'Pry'
+require Pry
 class Student
   attr_accessor :id, :name, :grade
 
